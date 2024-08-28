@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .null {
+        border: 0;
+        background-color: white;
+      }
+      .top-left-text {
+        position: relative;
+      }
+      .top-left-text::before {
+        content: "Apple are Good for Health";
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: rgb(14, 11, 11);
+        font-size: 50px;
+      }
+      .borderRow td {
+        border: 1px solid brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Nhánh Main</h1>
+    <!-- bai 1 -->
+    <table border="1" style="border-color: antiquewhite">
+      <thead>
+        <th style="background-color: aqua">india</th>
+        <th style="background-color: aqua">south africa</th>
+      </thead>
+      <tr>
+        <td>New zealand</td>
+        <td>srilanka</td>
+      </tr>
+    </table>
+
+    <!-- bai2 -->
+    <table border="1" style="border-color: antiquewhite">
+      <tr>
+        <td rowspan="2">Coutries</td>
+        <td>india</td>
+        <td>south africa</td>
+      </tr>
+      <tr>
+        <td>srilanka</td>
+        <td>New zealand</td>
+      </tr>
+    </table>
+
+    <!-- bai 3 -->
+    <table border="1">
+      <tr>
+        <td><b>Tag Name</b></td>
+        <td><b>Description</b></td>
+        <td rowspan="2" style="border: 0"></td>
+      </tr>
+      <tr style="font-style: italic">
+        <td>Table</td>
+        <td>To place a table in a web page</td>
+      </tr>
+      <tr style="font-style: italic">
+        <td style="border: 0"></td>
+        <td>TD</td>
+        <td>To add columns</td>
+      </tr>
+    </table>
+
+    <!-- bai 4 -->
+    <table border="1">
+      <caption align="top">
+        Feather lite Interior Decorator
+      </caption>
+      <thead style="text-align: center; background-color: aqua">
+        <th class="null"></th>
+        <th>NAME</th>
+        <th width="50">PRICE</th>
+        <th width="250">DESCRIPTIONS</th>
+        <th class="null"></th>
+      </thead>
+      <tr></tr>
+      <tr></tr>
+      <tr style="background-color: aqua">
+        <td class="null"></td>
+        <td style="text-align: center"><b>Dancing Armchair</b></td>
+        <td>$2150</td>
+        <td>A very stylish Dancing armchair</td>
+        <td class="null"></td>
+      </tr>
+      <tr></tr>
+      <tr></tr>
+      <tr style="background-color: aqua">
+        <td class="null"></td>
+        <td style="text-align: center"><b>Decorative Sofa</b></td>
+        <td>$5000</td>
+        <td>
+          A very comfotable sofa with a good and high back with detachable
+          cushions
+        </td>
+        <td class="null"></td>
+      </tr>
+      <tr></tr>
+      <tr></tr>
+      <tr style="background-color: aqua">
+        <td class="null"></td>
+        <td style="text-align: center; font-size: 30px"><b>SALE!!!</b></td>
+        <td colspan="3" width="250" style="text-align: center; font-size: 30px">
+          <b>Avail a heavy weight opportunity ar featherlite</b>
+        </td>
+      </tr>
+      <tr></tr>
+    </table>
+
+    <!-- bai 5 -->
+    <table border="1">
+      <tr>
+        <td>
+          <img
+            src="Screenshot 2024-04-23 153422.png"
+            alt=""
+            style="width: 100px"
+          />
+        </td>
+        <td style="background-color: #9999ff">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sed
+          totam! At veniam accusamus harum quae unde, voluptatem neque itaque
+          atque necessitatibus ullam, quibusdam fuga eligendi officiis tempora
+          facilis sint consequuntur eveniet soluta molestias magnam ipsam error
+          corrupti. Animi sapiente velit quisquam debitis distinctio sit aperiam
+          nemo deserunt numquam voluptatibus nam voluptatem temporibus quaerat
+          tempora architecto neque, expedita reprehenderit. Sequi omnis ratione
+          commodi cum excepturi vero sapiente cupiditate. Laborum, inventore,
+          facere alias dolorem totam fugit tempore doloribus voluptatum culpa ut
+          quia dolor qui error aliquid. Veritatis quos molestiae nesciunt
+          consequatur, natus officiis, fugiat numquam in libero eligendi eos
+          dolores perspiciatis.
+        </td>
+      </tr>
+      <tr style="text-align: right">
+        <td></td>
+        <td style="background-color: #9999ff">Click for more</td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="Screenshot 2024-04-23 153422.png"
+            alt=""
+            style="width: 100px"
+          />
+        </td>
+        <td style="background-color: #cc66ff">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sed
+          totam! At veniam accusamus harum quae unde, voluptatem neque itaque
+          atque necessitatibus ullam, quibusdam fuga eligendi officiis tempora
+          facilis sint consequuntur eveniet soluta molestias magnam ipsam error
+          corrupti. Animi sapiente velit quisquam debitis distinctio sit aperiam
+          nemo deserunt numquam voluptatibus nam voluptatem temporibus quaerat
+          tempora architecto neque, expedita reprehenderit. Sequi omnis ratione
+          commodi cum excepturi vero sapiente cupiditate. Laborum, inventore,
+          facere alias dolorem totam fugit tempore doloribus voluptatum culpa ut
+          quia dolor qui error aliquid. Veritatis quos molestiae nesciunt
+          consequatur, natus officiis, fugiat numquam in libero eligendi eos
+          dolores perspiciatis.
+        </td>
+      </tr>
+      <tr style="text-align: right">
+        <td></td>
+        <td style="background-color: #cc66ff">Click for more</td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="Screenshot 2024-04-23 153422.png"
+            alt=""
+            style="width: 100px"
+          />
+        </td>
+        <td style="background-color: #99c666">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sed
+          totam! At veniam accusamus harum quae unde, voluptatem neque itaque
+          atque necessitatibus ullam, quibusdam fuga eligendi officiis tempora
+          facilis sint consequuntur eveniet soluta molestias magnam ipsam error
+          corrupti. Animi sapiente velit quisquam debitis distinctio sit aperiam
+          nemo deserunt numquam voluptatibus nam voluptatem temporibus quaerat
+          tempora architecto neque, expedita reprehenderit. Sequi omnis ratione
+          commodi cum excepturi vero sapiente cupiditate. Laborum, inventore,
+          facere alias dolorem totam fugit tempore doloribus voluptatum culpa ut
+          quia dolor qui error aliquid. Veritatis quos molestiae nesciunt
+          consequatur, natus officiis, fugiat numquam in libero eligendi eos
+          dolores perspiciatis.
+        </td>
+      </tr>
+    </table>
+
+    <!-- bai 6 -->
+    <table border="1" cellspacing="0" style="border-style: dashed">
+      <tr style="background-color: chocolate">
+        <td style="border-style: dashed" width="200">
+          <img src="Screenshot 2024-04-23 153422.png" alt="" />
+        </td>
+        <td style="border-style: dashed" class="top-left-text"></td>
+      </tr>
+      <tr style="background-color: chocolate">
+        <td colspan="2" style="border-style: dashed">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quasi
+          sequi optio magnam atque reiciendis cupiditate eligendi velit.
+          Doloribus, repudiandae aliquid labore, necessitatibus laudantium
+          cupiditate voluptate deleniti hic dolor sed non incidunt dolorum
+          consectetur consequuntur nemo rem ipsum adipisci molestiae odit nam.
+          Nihil incidunt dolores quisquam repellendus recusandae odit minima
+          harum accusamus. Qui sapiente recusandae architecto alias ut pariatur
+          corrupti! Laborum laudantium veritatis deserunt laboriosam deleniti
+          ipsam rem esse, error possimus totam ea porro. Consectetur, aliquam
+          nemo nisi ducimus minima culpa sequi necessitatibus nam, pariatur,
+          provident corrupti. Voluptatem fugiat voluptatum suscipit, non
+          molestias consectetur quo nesciunt magnam, commodi tempore hic?
+        </td>
+      </tr>
+    </table>
+
+    <!-- bai 7 -->
+
+    <table>
+      <tr style="background-color: #99c666">
+        <td colspan="5" style="text-align: center"><b>KID CATEGORY</b></td>
+      </tr>
+      <tr style="background-color: #9999ff">
+        <td>Name of the book</td>
+        <td>Author</td>
+        <td>Price</td>
+        <td>Rating</td>
+        <td>Book cover</td>
+      </tr>
+      <tr class="borderRow">
+        <td>Where the Wild Things Are</td>
+        <td>Sendak, Maurice</td>
+        <td>$10.68</td>
+        <td>+++</td>
+        <td>
+          <img
+            src="Screenshot 2024-04-23 153422.png"
+            alt=""
+            style="width: 100px"
+          />
+        </td>
+      </tr>
+      <tr class="borderRow">
+        <td>Where the Wild Things Are nkadlas kalksd</td>
+        <td>Sendak, Mau</td>
+        <td>$10.68</td>
+        <td>++</td>
+        <td>
+          <img
+            src="Screenshot 2024-04-23 153422.png"
+            alt=""
+            style="width: 100px"
+          />
+        </td>
+      </tr>
+      <tr class="borderRow">
+        <td>Where the Wild Things Are</td>
+        <td>Sendak, Mauri</td>
+        <td>$10.68</td>
+        <td>+++</td>
+        <td>
+          <img
+            src="Screenshot 2024-04-23 153422.png"
+            alt=""
+            style="width: 100px"
+          />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
